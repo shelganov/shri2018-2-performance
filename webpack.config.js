@@ -38,18 +38,31 @@ module.exports = {
                 use: [
                     MiniCssExtractPlugin.loader,
                     'css-loader',
+                    // {
+                        // loader: 'postcss-loader',
+                        // options: {
+                        //     plugins: [
+                        //         require('autoprefixer')({
+                        //             browsers: ['> 0%'],
+                        //             cascade: false
+                        //         }),
+                        //     ]
+                        // }
+                    // },
+                    // 'sass-loader'
+                ]
+            },
+            {
+                // FONTS
+                test: /\.eot|ttf|woff|woff2$/,
+                use: [
                     {
-                        loader: 'postcss-loader',
+                        loader: 'file-loader',
                         options: {
-                            plugins: [
-                                require('autoprefixer')({
-                                    browsers: ['> 0%'],
-                                    cascade: false
-                                }),
-                            ]
+                            name: 'fonts/[name].[ext]',
+                            context: ''
                         }
-                    },
-                    'sass-loader'
+                    }
                 ]
             },
             // {
