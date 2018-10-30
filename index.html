@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <title>Smarthome</title>
     <link rel="shortcut icon" href="favicon.ico">
-    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <!--<script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>-->
+    <!--<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>-->
+    <!--<script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>-->
+    <link rel="stylesheet" href="dist/index.css">
 </head>
 <body class="page">
 <div id="root"></div>
@@ -82,7 +82,8 @@
                                 </div>
                             </div>
                             <div class="panel main__panel panel_device panel_out_bot">
-                                <script type="text/javascript" src="banner.js"></script>
+                                <a target=_blank href="http://ya.ru"><img src="assets/banner.jpg" border=0></a>
+                                <!--<script type="text/javascript" src="banner.js"></script>-->
                             </div>
                         </div>
                     </div>
@@ -186,30 +187,12 @@
 
                     <div class="scenarios__page">
                         <div class="panel scenarios__panel">
-                            <div class="panel__icon panel__icon_light_on"></div>
+                            <div class="panel__icon panel__icon_clock"></div>
                             <div class="panel__text">
-                                <div class="panel__title">Включить свет в корридоре</div>
+                                <div class="panel__title">Я ухожу</div>
                             </div>
                         </div>
                     </div>
-
-                    <script type="text/babel">
-                        class App extends React.Component {
-                            render() {
-                                return (
-                                    <div class="panel scenarios__panel">
-                                        <div class="panel__icon panel__icon_clock"></div>
-                                        <div class="panel__text">
-                                            <div class="panel__title">Я ухожу</div>
-                                        </div>
-                                    </div>
-                                );
-                            }
-                        }
-
-                        ReactDOM.render(<App />, document.getElementsByClassName('scenarios__page')[1]);
-                    </script>
-
                 </section>
             </div>
 
@@ -342,7 +325,9 @@
         <a href="#" class="link footer__link">Условия использования</a>
     </footer>
 </div>
-
+<style type="text/css">
+    .adjust-bar {-webkit-appearance: none;appearance: none;outline: none;border-radius: 30px;width: 100%;height: 60px;margin: 0;display: flex;justify-content: space-between;align-items: center;position: relative;}.adjust-bar::-webkit-slider-thumb {-webkit-appearance: none;appearance: none;cursor: pointer;width: 60px;height: 60px;border: 3px solid rgba(51, 51, 51, 0.1);border-radius: 30px;box-shadow: 0 0 0 4px #fff;}.adjust-bar::-moz-range-thumb {box-sizing: border-box;cursor: pointer;width: 60px;height: 60px;border: 3px solid rgba(51, 51, 51, 0.1);border-radius: 30px;background: transparent;box-shadow: 0 0 0 4px #fff;}.adjust-bar::-moz-range-track {background: transparent;}.adjust-bar__container_theme_temp {position: relative;}.adjust-bar__container_theme_temp::before, .adjust-bar__container_theme_temp::after {color: #fff;font-size: 18px;font-weight: 700;position: absolute;top: 20px;z-index: 1;pointer-events: none;}.adjust-bar__container_theme_temp:before {content: "–10";left: 15px;}.adjust-bar__container_theme_temp:after {content: '+30';right: 15px;}.adjust-bar__container_theme_light {position: relative;}.adjust-bar__container_theme_light::before, .adjust-bar__container_theme_light::after {content: '';position: absolute;z-index: 1;pointer-events: none;}.adjust-bar__container_theme_light::before {top: 14px;left: 14px;width: 30px;height: 30px;background: url("assets/adjust-bar_light_from.svg") center center/contain no-repeat;}.adjust-bar__container_theme_light::after {top: 13px;right: 13px;width: 34px;height: 34px;background: url("assets/adjust-bar_light_to.svg") center center/contain no-repeat;}.adjust-bar_theme_temp {background-image: linear-gradient(90deg, #068fff 0%, #ffd800 50%, #f76b1c 100%);}.adjust-bar_theme_light {background-image: linear-gradient(90deg, #ffe682 0%, #ff9e00 100%);}
+</style>
 <div class="modal modal_temp">
     <div class="modal__content">
 
@@ -442,7 +427,7 @@
 
 
 <script src="dist/scripts.js"></script>
-<link href="bootstrap.css" rel="stylesheet" media="screen">
+<!--<link href="bootstrap.css" rel="stylesheet" media="screen">-->
 <style type="text/css">
     .main__greeting {
         font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
