@@ -10,7 +10,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, `dist`),
         filename: 'scripts.js',
-        publicPath: `/dist/`
+        publicPath: `./`
     },
     optimization: {
         minimizer: [
