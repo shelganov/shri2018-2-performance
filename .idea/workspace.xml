@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb452ad0-1a2d-4851-8ad9-85f0aae72dc4" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/adjust-bar_light_from.svg" afterPath="$PROJECT_DIR$/assets/data-image/adjust-bar_light_from.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/adjust-bar_light_to.svg" afterPath="$PROJECT_DIR$/assets/data-image/adjust-bar_light_to.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/banner.jpg" afterPath="$PROJECT_DIR$/assets/img/banner.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/cloud-drizzle.png" afterPath="$PROJECT_DIR$/assets/data-image/cloud-drizzle.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/logo.png" afterPath="$PROJECT_DIR$/assets/img/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/main-bg.png" afterPath="$PROJECT_DIR$/assets/img/main-bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/panel__icon_clock.svg" afterPath="$PROJECT_DIR$/assets/data-image/panel__icon_clock.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/panel__icon_light_off.svg" afterPath="$PROJECT_DIR$/assets/data-image/panel__icon_light_off.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/panel__icon_light_on.svg" afterPath="$PROJECT_DIR$/assets/data-image/panel__icon_light_on.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/panel__icon_out.svg" afterPath="$PROJECT_DIR$/assets/data-image/panel__icon_out.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/panel__icon_temp_off.svg" afterPath="$PROJECT_DIR$/assets/data-image/panel__icon_temp_off.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/panel__icon_temp_on.svg" afterPath="$PROJECT_DIR$/assets/data-image/panel__icon_temp_on.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/sh.png" afterPath="$PROJECT_DIR$/assets/img/sh.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/logo.png" afterPath="$PROJECT_DIR$/dist/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/sh.png" afterPath="$PROJECT_DIR$/dist/img/sh.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.css" afterPath="$PROJECT_DIR$/dist/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts.js" afterPath="$PROJECT_DIR$/dist/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts.js" afterPath="$PROJECT_DIR$/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="shri2018-2-performance.iws" />
@@ -47,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="120">
               <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding />
             </state>
@@ -57,28 +39,28 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8455">
-              <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+            <state relative-caret-position="200">
+              <caret line="656" column="5" selection-start-line="656" selection-start-column="5" selection-end-line="656" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="180">
               <caret line="257" column="50" selection-start-line="257" selection-start-column="50" selection-end-line="257" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="81" column="14" selection-start-line="67" selection-start-column="11" selection-end-line="81" selection-end-column="14" />
+            <state relative-caret-position="59">
+              <caret line="115" column="24" selection-start-line="92" selection-start-column="23" selection-end-line="115" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -316,7 +298,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9842000" />
+    <option name="totallyTimeSpent" value="10819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="752" extended-state="6" />
@@ -676,34 +658,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
+    <entry file="file://$PROJECT_DIR$/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8455">
-          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="81" column="14" selection-start-line="67" selection-start-column="11" selection-end-line="81" selection-end-column="14" />
+        <state relative-caret-position="180">
+          <caret line="257" column="50" selection-start-line="257" selection-start-column="50" selection-end-line="257" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="120">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts.js">
+    <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="257" column="50" selection-start-line="257" selection-start-column="50" selection-end-line="257" selection-end-column="50" />
+        <state relative-caret-position="200">
+          <caret line="656" column="5" selection-start-line="656" selection-start-column="5" selection-end-line="656" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="115" column="24" selection-start-line="92" selection-start-column="23" selection-end-line="115" selection-end-column="24" />
           <folding />
         </state>
       </provider>
