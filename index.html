@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <title>Smarthome</title>
     <link rel="shortcut icon" href="favicon.ico">
-    <!--<script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>-->
-    <!--<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>-->
-    <!--<script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>-->
     <link rel="stylesheet" href="dist/index.css">
+    <script async src="dist/scripts.js"></script>
 </head>
 <body class="page">
 <div id="root"></div>
 <div class="page__wrapper">
     <div class="page__wrapper-content">
+        <!--<style type="text/css">.header {width: 100%;height: 92px;padding: 0 40px;border-bottom: 1px solid #f0f0f0;display: flex;align-items: center;background: #fff;}.logo {display: inline-block;width: 108px;height: 27px;position: relative;background-image: url("assets/img/logo.png");background-repeat: no-repeat;background-position: left top;background-size: cover;}.logo__ya {display: block;position: absolute;z-index: 10;outline: 0;height: 100%;width: 69px;left: 0;top: 0;}.logo__ya-sub {display: block;position: absolute;z-index: 5;outline: 0;height: 100%;width: 100%;left: 0;top: 0;}</style>-->
         <header class="header">
             <div class="logo header__logo">
                 <a href="yandex.ru" class="link logo__ya"></a>
                 <a href="#" class="link logo__ya-sub"></a>
             </div>
+            <!--<style type="text/css">.menu {margin-left: 52px;}.menu__icon {display: none;}.menu__item {margin-right: 27px;font-size: 16px;font-weight: 700;}.menu__list {display: flex;justify-content: flex-start;list-style: none;padding: 0;margin: 0;}</style>-->
             <nav class="menu">
                 <ul class="menu__list">
                     <li class="menu__item">
@@ -31,15 +31,16 @@
                     </li>
                 </ul>
             </nav>
-            <div class="menu__icon">
-                <svg width="16" height="14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <defs>
-                        <path d="M0 3.326a.995.995 0 0 1 1-.993h14c.552 0 1 .44 1 .993v.681A.995.995 0 0 1 15 5H1c-.552 0-1-.44-1-.993v-.68zM0 8.66a.995.995 0 0 1 1-.993h14c.552 0 1 .44 1 .993v.68a.995.995 0 0 1-1 .993H1c-.552 0-1-.44-1-.993v-.68zm0 5.333A.995.995 0 0 1 1 13h14c.552 0 1 .44 1 .993v.68a.995.995 0 0 1-1 .994H1c-.552 0-1-.44-1-.993v-.681z" id="a"/>
-                    </defs>
-                    <use fill="#333" xlink:href="#a" transform="translate(0 -2)" fill-rule="evenodd"/>
-                </svg>
-            </div>
+            <!--<div class="menu__icon">-->
+                <!--<svg width="16" height="14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">-->
+                    <!--<defs>-->
+                        <!--<path d="M0 3.326a.995.995 0 0 1 1-.993h14c.552 0 1 .44 1 .993v.681A.995.995 0 0 1 15 5H1c-.552 0-1-.44-1-.993v-.68zM0 8.66a.995.995 0 0 1 1-.993h14c.552 0 1 .44 1 .993v.68a.995.995 0 0 1-1 .993H1c-.552 0-1-.44-1-.993v-.68zm0 5.333A.995.995 0 0 1 1 13h14c.552 0 1 .44 1 .993v.68a.995.995 0 0 1-1 .994H1c-.552 0-1-.44-1-.993v-.681z" id="a"/>-->
+                    <!--</defs>-->
+                    <!--<use fill="#333" xlink:href="#a" transform="translate(0 -2)" fill-rule="evenodd"/>-->
+                <!--</svg>-->
+            <!--</div>-->
         </header>
+        <!--<style type="text/css">.content {width: 100%;display: flex;flex-wrap: wrap;justify-content: space-between;padding-top: 29px;}.content__item {width: 100%;margin-bottom: 29px;position: relative;}.content__item_half {width: 49%;}.content__item_main {padding-left: 40px;}.content__item_scenarios {padding-right: 40px;}.content__item-header {font-size: 18px;font-weight: 700;margin-bottom: 20px;}.content__item-header_devices {padding-left: 40px;display: inline-block;margin-right: 11px;}</style>-->
         <main class="content">
             <div class="content__item content__item_half content__item_main">
                 <div class="content__item-header">Главное</div>
@@ -82,8 +83,7 @@
                                 </div>
                             </div>
                             <div class="panel main__panel panel_device panel_out_bot">
-                                <a target=_blank href="http://ya.ru"><img src="assets/banner.jpg" border=0></a>
-                                <!--<script type="text/javascript" src="banner.js"></script>-->
+                                <a target=_blank href="http://ya.ru"><img src="assets/img/banner.jpg" border=0></a>
                             </div>
                         </div>
                     </div>
@@ -325,9 +325,9 @@
         <a href="#" class="link footer__link">Условия использования</a>
     </footer>
 </div>
-<style type="text/css">
-    .adjust-bar {-webkit-appearance: none;appearance: none;outline: none;border-radius: 30px;width: 100%;height: 60px;margin: 0;display: flex;justify-content: space-between;align-items: center;position: relative;}.adjust-bar::-webkit-slider-thumb {-webkit-appearance: none;appearance: none;cursor: pointer;width: 60px;height: 60px;border: 3px solid rgba(51, 51, 51, 0.1);border-radius: 30px;box-shadow: 0 0 0 4px #fff;}.adjust-bar::-moz-range-thumb {box-sizing: border-box;cursor: pointer;width: 60px;height: 60px;border: 3px solid rgba(51, 51, 51, 0.1);border-radius: 30px;background: transparent;box-shadow: 0 0 0 4px #fff;}.adjust-bar::-moz-range-track {background: transparent;}.adjust-bar__container_theme_temp {position: relative;}.adjust-bar__container_theme_temp::before, .adjust-bar__container_theme_temp::after {color: #fff;font-size: 18px;font-weight: 700;position: absolute;top: 20px;z-index: 1;pointer-events: none;}.adjust-bar__container_theme_temp:before {content: "–10";left: 15px;}.adjust-bar__container_theme_temp:after {content: '+30';right: 15px;}.adjust-bar__container_theme_light {position: relative;}.adjust-bar__container_theme_light::before, .adjust-bar__container_theme_light::after {content: '';position: absolute;z-index: 1;pointer-events: none;}.adjust-bar__container_theme_light::before {top: 14px;left: 14px;width: 30px;height: 30px;background: url("assets/adjust-bar_light_from.svg") center center/contain no-repeat;}.adjust-bar__container_theme_light::after {top: 13px;right: 13px;width: 34px;height: 34px;background: url("assets/adjust-bar_light_to.svg") center center/contain no-repeat;}.adjust-bar_theme_temp {background-image: linear-gradient(90deg, #068fff 0%, #ffd800 50%, #f76b1c 100%);}.adjust-bar_theme_light {background-image: linear-gradient(90deg, #ffe682 0%, #ff9e00 100%);}
-</style>
+<!--<style type="text/css">-->
+    <!--.adjust-bar {-webkit-appearance: none;appearance: none;outline: none;border-radius: 30px;width: 100%;height: 60px;margin: 0;display: flex;justify-content: space-between;align-items: center;position: relative;}.adjust-bar::-webkit-slider-thumb {-webkit-appearance: none;appearance: none;cursor: pointer;width: 60px;height: 60px;border: 3px solid rgba(51, 51, 51, 0.1);border-radius: 30px;box-shadow: 0 0 0 4px #fff;}.adjust-bar::-moz-range-thumb {box-sizing: border-box;cursor: pointer;width: 60px;height: 60px;border: 3px solid rgba(51, 51, 51, 0.1);border-radius: 30px;background: transparent;box-shadow: 0 0 0 4px #fff;}.adjust-bar::-moz-range-track {background: transparent;}.adjust-bar__container_theme_temp {position: relative;}.adjust-bar__container_theme_temp::before, .adjust-bar__container_theme_temp::after {color: #fff;font-size: 18px;font-weight: 700;position: absolute;top: 20px;z-index: 1;pointer-events: none;}.adjust-bar__container_theme_temp:before {content: "–10";left: 15px;}.adjust-bar__container_theme_temp:after {content: '+30';right: 15px;}.adjust-bar__container_theme_light {position: relative;}.adjust-bar__container_theme_light::before, .adjust-bar__container_theme_light::after {content: '';position: absolute;z-index: 1;pointer-events: none;}.adjust-bar__container_theme_light::before {top: 14px;left: 14px;width: 30px;height: 30px;background: url("assets/data-image/adjust-bar_light_from.svg") center center/contain no-repeat;}  .adjust-bar__container_theme_light::after {top: 13px;right: 13px;width: 34px;height: 34px;background: url("assets/data-image/adjust-bar_light_to.svg") center center/contain no-repeat;}  .adjust-bar_theme_temp {background-image: linear-gradient(90deg, #068fff 0%, #ffd800 50%, #f76b1c 100%);}  .adjust-bar_theme_light {background-image: linear-gradient(90deg, #ffe682 0%, #ff9e00 100%);}-->
+<!--</style>-->
 <div class="modal modal_temp">
     <div class="modal__content">
 
@@ -416,24 +416,11 @@
                 </div>
             </div>
         </div>
-
         <div class="modal__controls">
             <div class="button button_size_l button_color_yellow modal__button">Применить</div>
             <div class="button button_size_l modal__button modal_close">Закрыть</div>
         </div>
     </div>
-
 </div>
-
-
-<script src="dist/scripts.js"></script>
-<!--<link href="bootstrap.css" rel="stylesheet" media="screen">-->
-<style type="text/css">
-    .main__greeting {
-        font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
-</style>
-
 </body>
-
 </html>
