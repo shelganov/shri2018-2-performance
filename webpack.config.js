@@ -65,21 +65,21 @@ module.exports = {
                     }
                 ]
             },
-            // {
-            //     // DATA IMAGES
-            //     test: /\.(png|jpe?g|svg)$/,
-            //     use: [
-            //         {
-            //             loader: 'url-loader',
-            //             options: {
-            //                 limit: 8192
-            //             }
-            //         }
-            //     ],
-            //     include: [
-            //         path.resolve(__dirname, `src/icons`)
-            //     ],
-            // },
+            {
+                // DATA IMAGES
+                test: /\.(png|jpe?g|svg)$/,
+                use: [
+                    {
+                        loader: 'url-loader',
+                        options: {
+                            limit: 8192
+                        }
+                    }
+                ],
+                include: [
+                    path.resolve(__dirname, `assets/data-image`)
+                ],
+            },
             {
                 // IMAGES
                 test: /\.(png|jpe?g|svg)$/,
@@ -114,7 +114,10 @@ module.exports = {
                             // }
                         }
                     }
-                ]
+                ],
+                include: [
+                    path.resolve(__dirname, `assets/img`)
+                ],
             }
         ]
     },
