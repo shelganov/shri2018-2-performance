@@ -127,37 +127,37 @@
 
 
 /*SHELG*/
-.content {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-top: 29px;
-}
-.content__item {
-  width: 100%;
-  margin-bottom: 29px;
-  position: relative;
-}
-.content__item_half {
-  width: 49%;
-}
-.content__item_main {
-  padding-left: 40px;
-}
-.content__item_scenarios {
-  padding-right: 40px;
-}
-.content__item-header {
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-.content__item-header_devices {
-  padding-left: 40px;
-  display: inline-block;
-  margin-right: 11px;
-}
+/*.content {*/
+  /*width: 100%;*/
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: space-between;*/
+  /*padding-top: 29px;*/
+/*}*/
+/*.content__item {*/
+  /*width: 100%;*/
+  /*margin-bottom: 29px;*/
+  /*position: relative;*/
+/*}*/
+/*.content__item_half {*/
+  /*width: 49%;*/
+/*}*/
+/*.content__item_main {*/
+  /*padding-left: 40px;*/
+/*}*/
+/*.content__item_scenarios {*/
+  /*padding-right: 40px;*/
+/*}*/
+/*.content__item-header {*/
+  /*font-size: 18px;*/
+  /*font-weight: 700;*/
+  /*margin-bottom: 20px;*/
+/*}*/
+/*.content__item-header_devices {*/
+  /*padding-left: 40px;*/
+  /*display: inline-block;*/
+  /*margin-right: 11px;*/
+/*}*/
 
 
 
@@ -247,15 +247,15 @@
 
 
 /*SHELG*/
-.header {
-  width: 100%;
-  height: 92px;
-  padding: 0 40px;
-  border-bottom: 1px solid #f0f0f0;
-  display: flex;
-  align-items: center;
-  background: #fff;
-}
+/*.header {*/
+  /*width: 100%;*/
+  /*height: 92px;*/
+  /*padding: 0 40px;*/
+  /*border-bottom: 1px solid #f0f0f0;*/
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*background: #fff;*/
+/*}*/
 
 
 
@@ -328,36 +328,36 @@
 
 
 /*SHELG*/
-.logo {
-  display: inline-block;
-  width: 108px;
-  height: 27px;
-  position: relative;
-  background-image: url("assets/img/logo.png");
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: cover;
-}
-.logo__ya {
-  display: block;
-  position: absolute;
-  z-index: 10;
-  outline: 0;
-  height: 100%;
-  width: 69px;
-  left: 0;
-  top: 0;
-}
-.logo__ya-sub {
-  display: block;
-  position: absolute;
-  z-index: 5;
-  outline: 0;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-}
+/*.logo {*/
+  /*display: inline-block;*/
+  /*width: 108px;*/
+  /*height: 27px;*/
+  /*position: relative;*/
+  /*background-image: url("assets/img/logo.png");*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: left top;*/
+  /*background-size: cover;*/
+/*}*/
+/*.logo__ya {*/
+  /*display: block;*/
+  /*position: absolute;*/
+  /*z-index: 10;*/
+  /*outline: 0;*/
+  /*height: 100%;*/
+  /*width: 69px;*/
+  /*left: 0;*/
+  /*top: 0;*/
+/*}*/
+/*.logo__ya-sub {*/
+  /*display: block;*/
+  /*position: absolute;*/
+  /*z-index: 5;*/
+  /*outline: 0;*/
+  /*height: 100%;*/
+  /*width: 100%;*/
+  /*left: 0;*/
+  /*top: 0;*/
+/*}*/
 
 
 
