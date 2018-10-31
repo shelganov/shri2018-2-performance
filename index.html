@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="dist/index.css">
     <script async src="dist/scripts.js"></script>
 </head>
+<style type="text/css">* {box-sizing: border-box;}html {height: 100%;}.main {height: 331px;border-radius: 20px;padding: 0 20px 0 25px;display: flex;justify-content: space-between;background: url("assets/img/sh.png") center center/cover no-repeat;}.page {height: 100%;font: 14px Arial, sans-serif;color: #333;line-height: 1.143;margin: 0 auto;padding: 0;width: 1366px;}.page__wrapper {display: flex;flex-direction: column;height: 100%;}.page__wrapper-content {flex: 1 0 auto;}</style>
 <body class="page">
 <div id="root"></div>
 <div class="page__wrapper">
     <div class="page__wrapper-content">
-        <style type="text/css">.header {width: 100%;height: 92px;padding: 0 40px;border-bottom: 1px solid #f0f0f0;display: flex;align-items: center;background: #fff;}.logo {display: inline-block;width: 108px;height: 27px;position: relative;background-image: url("assets/img/logo.png");background-repeat: no-repeat;background-position: left top;background-size: cover;}.logo__ya {display: block;position: absolute;z-index: 10;outline: 0;height: 100%;width: 69px;left: 0;top: 0;}.logo__ya-sub {display: block;position: absolute;z-index: 5;outline: 0;height: 100%;width: 100%;left: 0;top: 0;}</style>
+        <style type="text/css">.header {width: 100%;height: 92px;padding: 0 40px;border-bottom: 1px solid #f0f0f0;display: flex;align-items: center;background: #fff;}.logo {display: inline-block;width: 108px;height: 27px;position: relative;background-image: url("assets/img/logo.png");background-repeat: no-repeat;background-position: left top;background-size: cover;}.logo__ya {display: block;position: absolute;z-index: 10;outline: 0;height: 100%;width: 69px;left: 0;top: 0;}.logo__ya-sub {display: block;position: absolute;z-index: 5;outline: 0;height: 100%;width: 100%;left: 0;top: 0;}.link, .link:active, .link:visited {color: rgba(51, 51, 51, 0.6);}.link {text-decoration: none;}.link_active, .link:hover {color: inherit;}</style>
         <header class="header">
             <div class="logo header__logo">
                 <a href="yandex.ru" class="link logo__ya"></a>
@@ -44,6 +45,7 @@
         <main class="content">
             <div class="content__item content__item_half content__item_main">
                 <div class="content__item-header">Главное</div>
+                <style type="text/css">.main {height: 331px;border-radius: 20px;padding: 0 20px 0 25px;display: flex;justify-content: space-between;background: url("assets/img/sh.png") center center/cover no-repeat;}</style>
                 <section class="main">
                     <div class="main__info">
                         <div class="main__greeting">Привет, Геннадий!</div>
@@ -117,6 +119,7 @@
                         </svg>
                     </div>
                 </div>
+                <style type="text/css">.scenarios {max-height: 331px;background: #fff;display: flex;justify-content: flex-start;overflow-x: hidden;}.scenarios__page {display: grid;grid-template-columns: repeat(3, 200px);grid-template-rows: repeat(3, 100px);grid-column-gap: 15px;grid-row-gap: 15px;justify-content: space-between;margin-right: 15px;}.scenarios__paginator {position: absolute;top: 0;right: 40px;}.scenarios_hide {display: none;}</style>
                 <section class="scenarios">
                     <div class="scenarios__page">
                         <div class="panel scenarios__panel">
@@ -200,7 +203,7 @@
         <span class="content__item-header content__item-header_devices">
           Избранные устройства
         </span>
-
+                <style type="text/css">.filter__select {display: none;}.filter__item-label {display: inline-block;font-size: 13px;line-height: 1;font-weight: 700;background: #f7f7f7;min-height: 30px;padding: 8px 13px;border-radius: 15px;margin-right: 11px;cursor: pointer;}.filter__item-label:hover {background: #ffd93e;}.filter__item-radio {display: none;}.filter__item-radio:checked + label {background: #ffd93e;}.filter__item-radio_kitchen:checked ~ .devices .panel {display: none;}.filter__item-radio_kitchen:checked ~ .devices .panel_kitchen {display: flex;}.filter__item-radio_room:checked ~ .devices .panel {display: none;}.filter__item-radio_room:checked ~ .devices .panel_room {display: flex;}.filter__item-radio_lamp:checked ~ .devices .panel {display: none;}.filter__item-radio_lamp:checked ~ .devices .panel_lamp {display: flex;}.filter__item-radio_cam:checked ~ .devices .panel {display: none;}.filter__item-radio_cam:checked ~ .devices .panel_cam {display: flex;}</style>
                 <div class="filter__select">
                     <button class="filter__select-button" type="button">
                         <span class="button__text">Все</span>
@@ -255,7 +258,7 @@
                         </svg>
                     </div>
                 </div>
-
+                <style type="text/css">.devices {display: flex;justify-content: flex-start;overflow-x: hidden;padding: 20px 0 6px 40px;}.devices__panel {margin-right: 15px;}.devices::after {content: '';display: inline-block;min-width: 25px;}.devices__paginator {position: absolute;top: 0;right: 40px;}</style>
                 <section class="devices">
                     <div class="panel panel_device devices__panel panel_room panel_floor">
                         <div class="panel__icon panel__icon_light_on"></div>
@@ -317,7 +320,7 @@
             </div>
         </main>
     </div>
-
+    <style type="text/css">.footer {flex: 0 0 auto;display: flex;justify-content: flex-start;align-items: center;flex-wrap: wrap;padding-left: 40px;width: 100%;height: 60px;font-size: 12px;}.footer__link {margin-right: 20px;}</style>
     <footer class="footer">
         <a href="#" class="link footer__link">Помощь</a>
         <a href="#" class="link footer__link">Обратная связь</a>
@@ -325,9 +328,7 @@
         <a href="#" class="link footer__link">Условия использования</a>
     </footer>
 </div>
-<style type="text/css">
-    <!--.adjust-bar {-webkit-appearance: none;appearance: none;outline: none;border-radius: 30px;width: 100%;height: 60px;margin: 0;display: flex;justify-content: space-between;align-items: center;position: relative;}.adjust-bar::-webkit-slider-thumb {-webkit-appearance: none;appearance: none;cursor: pointer;width: 60px;height: 60px;border: 3px solid rgba(51, 51, 51, 0.1);border-radius: 30px;box-shadow: 0 0 0 4px #fff;}.adjust-bar::-moz-range-thumb {box-sizing: border-box;cursor: pointer;width: 60px;height: 60px;border: 3px solid rgba(51, 51, 51, 0.1);border-radius: 30px;background: transparent;box-shadow: 0 0 0 4px #fff;}.adjust-bar::-moz-range-track {background: transparent;}.adjust-bar__container_theme_temp {position: relative;}.adjust-bar__container_theme_temp::before, .adjust-bar__container_theme_temp::after {color: #fff;font-size: 18px;font-weight: 700;position: absolute;top: 20px;z-index: 1;pointer-events: none;}.adjust-bar__container_theme_temp:before {content: "–10";left: 15px;}.adjust-bar__container_theme_temp:after {content: '+30';right: 15px;}.adjust-bar__container_theme_light {position: relative;}.adjust-bar__container_theme_light::before, .adjust-bar__container_theme_light::after {content: '';position: absolute;z-index: 1;pointer-events: none;}.adjust-bar__container_theme_light::before {top: 14px;left: 14px;width: 30px;height: 30px;background: url("assets/data-image/adjust-bar_light_from.svg") center center/contain no-repeat;}  .adjust-bar__container_theme_light::after {top: 13px;right: 13px;width: 34px;height: 34px;background: url("assets/data-image/adjust-bar_light_to.svg") center center/contain no-repeat;}  .adjust-bar_theme_temp {background-image: linear-gradient(90deg, #068fff 0%, #ffd800 50%, #f76b1c 100%);}  .adjust-bar_theme_light {background-image: linear-gradient(90deg, #ffe682 0%, #ff9e00 100%);}-->
-</style>
+<style type="text/css">.adjust-bar {-webkit-appearance: none;appearance: none;outline: none;border-radius: 30px;width: 100%;height: 60px;margin: 0;display: flex;justify-content: space-between;align-items: center;position: relative;}.adjust-bar::-webkit-slider-thumb {-webkit-appearance: none;appearance: none;cursor: pointer;width: 60px;height: 60px;border: 3px solid rgba(51, 51, 51, 0.1);border-radius: 30px;box-shadow: 0 0 0 4px #fff;}.adjust-bar::-moz-range-thumb {box-sizing: border-box;cursor: pointer;width: 60px;height: 60px;border: 3px solid rgba(51, 51, 51, 0.1);border-radius: 30px;background: transparent;box-shadow: 0 0 0 4px #fff;}.adjust-bar::-moz-range-track {background: transparent;}.adjust-bar__container_theme_temp {position: relative;}.adjust-bar__container_theme_temp::before, .adjust-bar__container_theme_temp::after {color: #fff;font-size: 18px;font-weight: 700;position: absolute;top: 20px;z-index: 1;pointer-events: none;}.adjust-bar__container_theme_temp:before {content: "–10";left: 15px;}.adjust-bar__container_theme_temp:after {content: '+30';right: 15px;}.adjust-bar__container_theme_light {position: relative;}.adjust-bar__container_theme_light::before, .adjust-bar__container_theme_light::after {content: '';position: absolute;z-index: 1;pointer-events: none;}.adjust-bar__container_theme_light::before {top: 14px;left: 14px;width: 30px;height: 30px;background: url("assets/data-image/adjust-bar_light_from.svg") center center/contain no-repeat;}  .adjust-bar__container_theme_light::after {top: 13px;right: 13px;width: 34px;height: 34px;background: url("assets/data-image/adjust-bar_light_to.svg") center center/contain no-repeat;}  .adjust-bar_theme_temp {background-image: linear-gradient(90deg, #068fff 0%, #ffd800 50%, #f76b1c 100%);}  .adjust-bar_theme_light {background-image: linear-gradient(90deg, #ffe682 0%, #ff9e00 100%);}--></style>
 <div class="modal modal_temp">
     <div class="modal__content">
 
@@ -380,7 +381,7 @@
 </div>
 <div class="stats">
 </div>
-
+<style type="text/css">.knob {width: 220px;height: 220px;display: flex;justify-content: center;align-items: center;position: relative;}.knob svg {width: 220px;height: 220px;transform: rotate(90deg);}.knob__indicator {fill: none;stroke: #f5a623;stroke-width: 20px;stroke-dasharray: 0 629;transform: rotate(29deg);}.knob__indicator-bounds {fill: transparent;stroke: #fff;stroke-width: 21px;stroke-dasharray: 99 629;transform: rotate(-29deg);}.knob__indicator-bg {fill: rgba(51, 51, 51, 0.7);}.knob__indicator-mask {fill: transparent;stroke: #fff;stroke-width: 22px;stroke-dasharray: 4 1;transform: rotate(1deg);}.knob__self {fill: #fefefe;filter: url("#knob-shadow");cursor: pointer;}.knob__value {font-size: 66px;font-weight: 700;position: absolute;user-select: none;pointer-events: none;}.knob__wrapper {display: flex;justify-content: center;align-items: center;height: 80%;}</style>
 <div class="modal modal_knob">
     <div class="modal__content">
 
